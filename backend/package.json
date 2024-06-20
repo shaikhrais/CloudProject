@@ -1,0 +1,23 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Backend service for Cloud Project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.6.0",
+        "ejs": "^3.1.10",
+        "express": "^4.17.1",
+        "express-session": "^1.18.0",
+        "install": "^0.13.0",
+        "mongoose": "^5.12.3",
+        "npm": "^10.8.1",
+        "passport": "^0.4.1",
+        "passport-google-oauth20": "^2.0.0",
+        "passport-local": "^1.0.0",
+        "prom-client": "^15.1.2"
+    }
+}
